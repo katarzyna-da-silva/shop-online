@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+
+.container-fluid {
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    align-items: stretch;
+    background: rgb(224, 222, 222);
+}
+
+.MyLogo {
+    font-size: 34px;
+    flex-basis: 650px;
+    padding: 15px;
+    margin-left: 170px;
+    font-family: 'Great Vibes', cursive;
+    color: #566270;
+    font-weight: 900;
+}
+
+.logo > p::first-letter {
+    color: rgb(34, 135, 182);
+    text-transform: uppercase; 
+    font-size: 38px;
+  
+}
+
+ul > li {
+    font-size: 18px;
+    float: left;
+    padding: 15px;
+    padding-top: 32px;
+    list-style-type: none; 
+    text-transform: uppercase;
+}
