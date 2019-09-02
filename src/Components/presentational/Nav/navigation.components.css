@@ -5,7 +5,7 @@
     margin-top: 20px;
     display: flex;
     align-items: stretch;
-    background: rgb(224, 222, 222);
+    
 }
 
 .MyLogo {
@@ -14,22 +14,52 @@
     padding: 15px;
     margin-left: 170px;
     font-family: 'Great Vibes', cursive;
-    color: #566270;
+    color:  #a80529;
     font-weight: 900;
+    letter-spacing: 4px;
 }
 
-.logo > p::first-letter {
-    color: rgb(34, 135, 182);
-    text-transform: uppercase; 
-    font-size: 38px;
+p {
+    animation-duration: 12s;
+    animation-name: slidein;
+  }
   
-}
+  @keyframes slidein {
+    from {
+        margin-left: 90%;
+        width: 200%;
+        color: rgb(203, 206, 205);
+        letter-spacing: 6px;
+      }
+      75% {
+        font-size: 100%;
+        margin-left: 0%;
+        width: 150%;
+        color: rgb(158, 152, 152);
+      }
+      to {
+        margin-left: 0%;
+        width: 100%;
+        color: #a80529;
+      }
+    }
+
+
+
+
+.logo > p::first-letter {
+    color: rgb(51, 131, 236);
+    text-transform: uppercase; 
+    font-size: 42px;
+  }
+
 
 ul > li {
     font-size: 18px;
     float: left;
     padding: 15px;
-    padding-top: 32px;
+    padding-top: 34px;
     list-style-type: none; 
     text-transform: uppercase;
+    color: #a80529;
 }
