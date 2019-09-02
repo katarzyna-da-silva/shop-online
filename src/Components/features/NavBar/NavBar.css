@@ -1,8 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css?family=Gayathri:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gayathri:400,700&display=swap');
 
-.container {
-    width: 80%;
-    margin-top: 20px;
+.navMenu {
     display: flex;
     align-items: stretch;  
 }
@@ -17,18 +15,6 @@
     font-weight: bold;
     text-transform: uppercase;
 }
-
-.secondLogo {
-    margin-top: -54px;
-    letter-spacing: 2px;
-    font-size: 14px;
-}
-
-p > .secondLogo::first-letter {
-    color: red;
-    font-size: 100px;
-}
-
 
 p {
     animation-duration: 12s;
@@ -63,12 +49,22 @@ p {
     font-size: 40px;
   }
 
-  ul > li {
+.secondLogo {
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+  .secondLogo::first-letter {
+    color: rgb(19, 197, 188);
+    font-size: 22px;
+}
+
+ul > li {
     font-size: 14px;
     font-weight: bold;
-    float: left;
-    padding: 17px;
-    padding-top: 28px;
+    justify-content: flex-end;
+    padding-left: 45px;
+    padding-top: 18px;
     list-style-type: none; 
     text-transform: uppercase;
     color: #000000;
@@ -79,4 +75,4 @@ p {
 .icon-shopping-cart {
     font-size: 16px;
     margin-top: 25px;
-} */
+}
