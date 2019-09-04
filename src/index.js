@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import App from './App';
 
-const Root = () => (
-    <Router>
+// const Root = () => (
+//   <Router>
+//     <App />
+//   </Router>
+// );
+
+// ReactDOM.render(<Root />, document.getElementById('root'));
+
+ReactDOM.render(
+  <Router>
       <App />
-    </Router>
-  );
-
-ReactDOM.render(<Root />, document.getElementById('root'));
-
+      </Router>,
+  document.getElementById('root')
+);
 
 
 // import React from "react";

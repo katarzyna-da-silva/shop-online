@@ -1,8 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
+// import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap-theme.css';
+
+//style
 import './NavBar.css';
 
-const NavBar = props => (
+const NavBar= props => (
     <div>
         <nav className="navMenu">
             <div className="myLogo">
@@ -11,17 +15,15 @@ const NavBar = props => (
                 </div>
                 <div className="menuNavigation">
                     <ul className="menu">
-                       <li><Link to='/'>Home</Link> </li>
-                           <li><Link to='/faq'>Faq</Link></li>
-                           <li><Link to='/rules'>Regulamin</Link></li>
-                           <li><Link to='/contact'>Kontakt</Link></li>
-                           <li><Link to='/shopping'><i class="icon-shopping-cart"></i></Link></li>
+                       <li><Link to='/' activeStyle={{color: '#48abee'}} onlyActiveOnIndex>Home</Link> </li>
+                           <li><Link to='/faq' activeStyle={{color: '#48abee'}} onlyActiveOnIndex>Faq</Link></li>
+                           <li><Link to='/rules' activeStyle={{color: '#48abee'}} onlyActiveOnIndex>Regulamin</Link></li>
+                           <li><Link to='/contact' activeStyle={{color: '#48abee'}} onlyActiveOnIndex>Kontakt</Link></li>
+                           <li><Link to='/shopping' activeStyle={{color: '#48abee'}} onlyActiveOnIndex><i class="icon-shopping-cart"></i></Link></li>
                     </ul>
                     </div>
             </nav>
-            <div className="NavMenu">
-            {props.children}
-        </div>  
+            {props.children} 
     </div>
   
 );
