@@ -1,15 +1,15 @@
 import React from 'react';
 import NavBar from '../../features/NavBar/NavBar.js';
+import Footer from '../../features/Footer/Footer.js';
 
 //style
 import './Layout.css';
 
-// import { Footer } from '../Footer/Footer.js';
-
 const Layout = () => (
     <div className="layout-container">
            <NavBar />
-  
+          
+                <Footer />
             </div>
   );
   

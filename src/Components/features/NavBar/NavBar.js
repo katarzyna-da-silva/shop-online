@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 // import 'bootstrap/dist/css/bootstrap.css';
-// import 'bootstrap/dist/css/bootstrap-theme.css';
+//import 'bootstrap/dist/css/bootstrap-theme.css';
 
 //style
 import './NavBar.css';
@@ -23,7 +23,7 @@ const NavBar= props => (
                     </ul>
                     </div>
             </nav>
-            {props.children} 
+         
     </div>
   
 );
