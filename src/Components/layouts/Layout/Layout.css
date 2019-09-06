@@ -1,5 +1,6 @@
 .layout-container {
     margin: 0 auto;
-    background-color: rgb(225, 231, 231);
-    max-width: 1400px;
+    background-color: rgb(230, 231, 231);
+    max-width: 1250px;
+    height: 1200px;
 }

@@ -1,10 +1,4 @@
-* {
-    box-sizing: border-box;
-    font-family: 'Work Sans', sans-serif;
-}
-
-.app {
+.App {
     margin: 0;
     padding: 0;
-
 }

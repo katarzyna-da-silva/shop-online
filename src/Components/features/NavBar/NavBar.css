@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Gayathri:400,700&display=swap');
 
 .navMenu {
-    display: flex;
-    align-items: stretch;  
+  display: flex;
+  align-items: stretch;  
 }
 
 .myLogo {
-    font-size: 18px;
-    flex-basis: 650px;
-    margin-left: 350px;
+    font-size: 24px;
+    flex-basis: 450px;
+    margin-left: 150px;
     font-family: 'Gayathri', sans-serif;
     color:  #000000;
     letter-spacing: 4px;
     font-weight: bold;
     text-transform: uppercase;
+    padding-top: 20px;
 }
 
 p {
@@ -25,7 +26,7 @@ p {
     from {
         margin-left: 90%;
         width: 180%;
-        color: rgb(245, 241, 242);
+        color: rgb(243, 233, 236);
         letter-spacing: 2px;
     
       }
@@ -33,30 +34,34 @@ p {
         font-size: 100%;
         margin-left: 0%;
         width: 150%;
-        color: rgb(172, 164, 164);
+        color: rgb(211, 211, 211);
     
       }
       to {
         margin-left: 0%;
         width: 100%;
-        color: #747474;
+        color: #a5a5a5;
       }
     }
 
 .logo > p::first-letter {
     color: rgb(93, 248, 196);;
     text-transform: uppercase; 
-    font-size: 40px;
   }
 
 .secondLogo {
     letter-spacing: 2px;
-    font-size: 14px;
+    font-size: 16px;
+    margin-top: -30px;
 }
 
   .secondLogo::first-letter {
     color: rgb(19, 197, 188);
     font-size: 22px;
+}
+
+.Menu {
+  color: rgb(102, 98, 98);
 }
 
 ul > li {
@@ -67,7 +72,8 @@ ul > li {
     padding-top: 18px;
     list-style-type: none; 
     text-transform: uppercase;
-    color: #000000;
+    display: inline-flex;
+    color: #5c5959;
     letter-spacing: 1px;
     font-family: 'Gayathri', sans-serif;
 }
